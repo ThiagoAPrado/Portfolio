@@ -1,0 +1,27 @@
+.hobbies__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    width: 12rem;
+    background-color: var(--cor-box);
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.hobbies__icons {
+    width: 5rem;
+}
+
+.hobbies__name {
+    margin-top: 1rem;
+    text-align: center;
+}

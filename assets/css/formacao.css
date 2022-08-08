@@ -1,0 +1,18 @@
+.formacao__faculdade {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--cor-titulo);;
+    margin-bottom: .75rem;
+    margin-top: 2rem;
+}
+
+.formacao__subtitulo {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--cor-subtitulo);;
+    
+}

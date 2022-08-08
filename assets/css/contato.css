@@ -1,0 +1,52 @@
+.contato__titulo {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6rem;
+    color: var(--cor-titulo);
+    margin-bottom: .5rem;
+
+}
+
+.contato__subtitulo {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--cor-subtitulo);
+    margin-bottom: 4rem;
+}
+
+.email {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    transition: 50ms;
+}
+
+.email:hover {
+    color: var(--cor-destaque-hover);
+    text-decoration: underline;
+}
+
+.contato__box___icones {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5rem;
+    margin-right: 35rem;
+    justify-content: space-between;
+}
+
+.contato__icones {
+    color: var(--cor-destaque);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 50ms;
+}
+
+.icon-text {
+    margin: .5rem;
+}
+
+.contato__icones:hover {
+    color: var(--cor-destaque-hover);
+}

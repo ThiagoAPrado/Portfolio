@@ -1,0 +1,44 @@
+.container-left {
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: var(--cor-destaque);
+}
+
+.cabecalho__top___responsive, .cabecalho__botton___responsive {
+    display: none;
+}
+
+.cabecalho__imagem {
+    width: 11rem;
+    margin-bottom: 2rem;
+    border: 10px solid var(--cor-destaque-img);
+    border-radius: 10rem;
+}
+
+.cabecalho__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__topic{
+    font-weight: 600;
+    font-size: 1.20rem;
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+.cabecalho__topic a{
+    color: var(--cor-fundo);
+    transition: 50ms;
+}
+
+.cabecalho__topic a:hover {
+    cursor: pointer;
+    color: var(--cor-destaque-hover);
+}
+

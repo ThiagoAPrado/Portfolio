@@ -1,0 +1,7 @@
+.interesses__paragrafo {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-paragrafo);
+    line-height: 1.5rem;
+    margin-top: 0.75rem;
+}

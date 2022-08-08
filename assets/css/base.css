@@ -1,0 +1,72 @@
+:root {
+    --font-titulo: 'Saira Extra Condensed', sans-serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    --cor-fundo: #edf6f9;
+    --cor-destaque: #588157;
+    --cor-destaque-img: #a3b18a;
+    --cor-destaque-hover: #fca311;
+    --cor-titulo: #343a40;
+    --cor-subtitulo: #6c757d;
+    --cor-paragrafo: black;
+    --cor-sombra: black;
+    --cor-box: white;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--cor-fundo);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-paragrafo);
+}
+
+strong {
+    color: var(--cor-destaque);
+}
+
+hr {
+    margin: 0;
+    border-top: 0.1rem solid rgba(0,0,0,.1);
+}
+
+.container-right {
+    margin-left: 17.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    min-height: 100vh;
+}
+
+.titulo {
+    font-family: var(--font-titulo);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--cor-titulo);
+    margin-bottom: .75rem;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--cor-subtitulo);
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-paragrafo);
+    line-height: 1.4rem;
+}

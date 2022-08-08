@@ -1,0 +1,16 @@
+.certificado__list {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.certificado__link {
+    font-size: .9rem;
+    line-height: 1.5rem;
+    
+}
+
+.certificado__link:hover {
+    color: var(--cor-destaque-hover);
+    
+}

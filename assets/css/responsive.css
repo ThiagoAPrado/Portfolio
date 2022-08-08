@@ -1,0 +1,165 @@
+@media (max-width: 1024px)  {
+    
+    /* CONTAINER */
+    .container-left {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .container-right {
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* CABECALHO */
+    .cabecalho__navegacao{
+        display: none;
+    }
+
+    .cabecalho__top___responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 2rem;
+    }
+
+    .cabecalho__botton___responsive {
+        display: none;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .cabecalho__links___responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .cabecalho__topic___responsive a{
+        color: var(--cor-fundo);
+    }
+
+    .cabecalho__topic___responsive a:hover{
+        color: var(--cor-destaque-hover);
+    }
+
+    .cabecalho__paragrafo___responsive {
+        font-weight: 600;
+        font-size: 1.50rem;
+        color: var(--cor-fundo);
+    }
+
+    .cabecalho__button___responsive {
+        width: 4rem;
+        background-color: transparent;
+        border: 1px solid hsla(0,0%,100%,.2);
+        border-radius: 5px;
+    }
+    
+    .cabecalho__box__responsive {
+        display: flex;
+        margin: .2rem .6rem;
+        filter: invert(90%);
+    }
+
+    .cabecalho__container___responsive {
+        margin-top: 5rem;
+    }
+
+
+    /* CONTATO */
+    .contato__subtitulo {
+        margin-bottom: 4rem;
+        line-height: 1.8rem;
+    }
+
+    .icones {
+        margin-right: 0;
+        justify-content: space-around;
+    }
+
+
+    /*PROJETOS*/
+    .projetos__icons {
+        width: 1.50rem;
+        margin-top: 1rem;
+    }
+    
+}
+
+/* SKILLS & HOBBIES */
+@media (max-width: 1364px){  
+    .skills__box, .hobbies__box {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .skills__icons, .hobbies__icons {
+        width: 4rem;
+    }
+}
+    
+@media (max-width: 1261px){
+    .skills__container, .hobbies__container {
+        justify-content: flex-start;
+    }
+}
+    
+@media (max-width: 530px){
+    .skills__box, .hobbies__box {
+        height: 8rem;
+        width: 8rem;
+    }
+    
+    .skills__icons, .hobbies__icons {
+        width: 3rem;
+    }
+}
+
+@media (max-width: 630px){
+    .contato__titulo {
+        margin-top: 5rem;
+    }
+
+    .contato__box___icones {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .contato__icones {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 450px){
+    .contato__titulo {
+        font-size: 5rem;
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 384px){
+    .skills__container, .hobbies__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 360px){
+    .contato__subtitulo {
+        font-size: 1.2rem;
+    }
+}
+
+/*Mobile S e Mobile M, tirar a margin para caber com o flex wrap*/
